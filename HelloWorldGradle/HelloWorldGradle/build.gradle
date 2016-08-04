@@ -17,7 +17,7 @@ sonarRunner {
    property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
  }
 }
-
+// i am trying to do the changes
 // In this section you declare where to find the dependencies of your project
 repositories {
         
