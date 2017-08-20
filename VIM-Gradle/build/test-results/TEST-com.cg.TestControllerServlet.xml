@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cg.TestControllerServlet" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-08-03T10:41:29" hostname="LIN51004648" time="1.156">
+  <properties/>
+  <testcase name="testProcessRequest" classname="com.cg.TestControllerServlet" time="1.156"/>
+  <system-out><![CDATA[class com.cg.dao.CarDAO$$EnhancerByMockitoWithCGLIB$$9a7abf0
+viewCarList: page set for destination
+/carList.jsp
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
