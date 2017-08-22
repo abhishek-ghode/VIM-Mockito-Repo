@@ -1,0 +1,13 @@
+Acquire::http::proxy "http://corp%5c<username>:<password>@inpunwbs02-wcg.corp.capgemini.com:8080";
+Acquire::https::proxy "http://corp%5c<username>:<password>@inpunwbs02-wcg.corp.capgemini.com:8080";
+
+
+
+/*
+
+	add above lines in /etc/apt/apt.conf
+
+
+*/
+
+proxy : inpunwbs02-wcg.corp.capgemini.com
