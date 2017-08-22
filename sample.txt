@@ -1,2 +1,3 @@
 Hello, world!
 This line is added as part of little-feature.
+This line is added in master.
