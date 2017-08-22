@@ -11,3 +11,15 @@ Acquire::https::proxy "http://corp%5c<username>:<password>@inpunwbs02-wcg.corp.c
 */
 
 proxy : inpunwbs02-wcg.corp.capgemini.com
+
+Plugin details
+
+Install below plugins into eclipse
+1. Bulidship Plugin url: http://download.eclipse.org/buildship/updates/e45/releases/1.0
+2. Subclipse Plugin url: http://subclipse.tigris.org/update_1.10.x
+
+In eclipse.ini
+
+-Dorg.eclipse.ecf.provider.filetransfer.excludeContributors=org.eclipse.ecf.provider.filetransfer.httpclient4
+-Dorg.eclipse.ecf.provider.filetransfer.retrieve.closeTimeout=3000
+-Dorg.eclipse.ecf.provider.filetransfer.retrieve.readTimeout=3000
