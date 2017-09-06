@@ -5,3 +5,7 @@ Welcome to GIT
 scp -r -i abhishek-ec2-keypair.pem /d/bcpabh/trainings/IRP/eclipse-workspace/VIM-JPA ubuntu@ec2-18-220-168-121.us-east-.compute.amazonaws.com:/home/ubuntu
 
 scp -r -i abhishek-ec2-keypair.pem ./VIM-JPA ubuntu@ec2-18-220-168-121.us-east-.compute.amazonaws.com:/home/ubuntu
+
+mysql (RDS service)
+
+mydb-instance4.ctrfip7cksfo.eu-west-2.rds.amazonaws.com
