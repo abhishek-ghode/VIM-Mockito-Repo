@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+         
+<!-- 
+		Following element defines a reference lookup name to an external resource. 
+		This external resource is type of javax.sql.DataSource.  
+		The configuration of this resource is also done in WEB-INF\web.xml
+		Don't forget to add required jdbc driver(jar) in WEB-INF\lib.  			
+-->
+
+<Resource name="jdbc/VIMDataSource" auth="Container"
+              type="javax.sql.DataSource" maxActive="100" 
+              maxIdle="30" maxWait="10000"
+               
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/test"/>
+              
+<!--
+
+username="root" password="root"
+This resource is for ORACLE DATABASE. 
+<Resource name="jdbc/VIMDataSource" auth="Container"
+              type="javax.sql.DataSource" maxActive="100" 
+              maxIdle="30" maxWait="10000"
+              username="VIM" password="seed123" 
+              driverClassName="oracle.jdbc.driver.OracleDriver"
+              url="jdbc:oracle:thin:@localhost:1521:XE"/> 
+   -->      
+                    
+</Context>
