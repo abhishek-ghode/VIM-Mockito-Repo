@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'eclipse-wtp'
 apply plugin: 'war'
-
+/*
 apply plugin: 'sonar-runner'
 
 sonarRunner {
@@ -11,7 +11,7 @@ sonarRunner {
    property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
  }
 }
-
+*/
 group = 'com.cg'
 version = '0.0.1-SNAPSHOT'
 
